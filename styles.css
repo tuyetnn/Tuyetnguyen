@@ -1,0 +1,16 @@
+/* this is my css fil*/
+
+/*styles of tags*/
+html{
+  background-color: red;
+}
+
+
+/*styles of classes*/
+.codingI{
+  background-color: White;
+}
+/*Styles of id*/
+#daddyshark{
+background-color: purple;
+}
