@@ -1,3 +1,74 @@
-html{
-  background-color: red;
+
+/* CSS Document for CA4 */
+
+body {
+	background-color: cadetblue;
+	margin: 5% 5% 5% 5%;
+}
+
+.header {
+	width: 100%;
+	height: 200px;
+	line-height: 160px;
+	color: honeydew;
+	font-size: 4em;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	margin: 0%;
+	border-radius: 20px 20px 0px 0px;
+	background-color: dimgrey;
+}
+
+
+
+.sidebar {
+	background-color: lightgray;
+	margin: 0px 0px 0px 0px;
+	width: 30%;
+	height: auto;
+	color: cadetblue;
+	font-size: 1em;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	text-align: left;
+	float: left;
+}
+
+.content {
+	background-color: lightgray;
+	margin: 0px 0px 0px 0px;
+	width: 65%;
+	height: auto;
+	color: cadetblue;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	text-align: center;
+	float: right;
+}
+
+.content p {
+	text-align: left;
+	color: black;
+	padding: 5px;
+}
+
+.foot {
+	border-radius: 0px 0px 20px 20px;
+	background-color: dimgrey;
+	width: 100%;
+	height: 100px;
+	color: honeydew;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	clear: all;
+	line-height: 5em;
+	text-align: center;
+}
+
+.image {
+	height: 200px;
+	width: auto;
+	float: left;
+	border-radius: 50%;
+	padding: 5px;
+}
+
+.strikeout {
+	text-decoration: linethrough;
 }
